@@ -6,7 +6,7 @@ const Stack = createStackNavigator();
 function RootNavigator() {
   return (
     <Stack.Navigator initialRouteName="Main">
-      <Stack.Screen name="Home" component={ConsoleScreen} />
+      <Stack.Screen name="FCM Testing" component={ConsoleScreen} />
     </Stack.Navigator>
   );
 }
